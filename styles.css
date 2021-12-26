@@ -2,16 +2,45 @@
 
 - Mobile: 375px
 - Desktop: 1440px */
-
-:root{
-    font-size: 15px;
-    --Very_Dark_Magenta: hsl(300, 43%, 22%);
-    --Soft_Pink: hsl(333, 80%, 67%);
-    --Dark_Grayish_Magenta: hsl(303, 10%, 53%);
-    --Light_Grayish_Magenta: hsl(300, 24%, 96%);
-    --White: hsl(0, 0%, 100%);
+:root {
+  font-size: 15px;
+  --Very_Dark_Magenta: hsl(300, 43%, 22%);
+  --Soft_Pink: hsl(333, 80%, 67%);
+  --Dark_Grayish_Magenta: hsl(303, 10%, 53%);
+  --Light_Grayish_Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
 }
 
-@media (max-width: 375px) { /*breakpoint*/
+body {
+  background-color: var(--White);
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
 
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 350px;
+  height: 376px;
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--Very_Dark_Magenta);
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
 }
