@@ -28,8 +28,8 @@ body {
 }
 
 .card {
-  width: 350px;
-  height: 376px;
+  width: 400px;
+  height: 250px;
   position: relative;
   border-radius: 10px;
   margin: 25px;
@@ -40,15 +40,24 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 50px;
+  margin-bottom: 50px;
 }
 
 .top-text > h1{
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--Very_Dark_Magenta);
+  margin-bottom: 10px;
 }
 
 .top-text{
   padding: 10px;
+}
+
+.top-content{
+  color: var(--Dark_Grayish_Magenta);
+  font-weight: 500;
+  line-height: 1.75;
+  font-size: 1.2rem;
 }
 
 .bottom{
@@ -61,23 +70,36 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  padding-top: 40px;
 }
 
 .rating {
   background-color: #f7f2f7;
   padding: 20px;
-  margin: 10px;
+  margin: 15px;
   border-radius: 0.5em;
   color: #502050;
   font-weight: 700;
-  width: 300px;
-  font-size: 0.8rem;
+  width: 500px;
+  font-size: 1rem;
   display: flex;
-  justify-content: space-around;
+}
+
+.rating-text{
+  margin-left: 50px;
 }
 
 .stars > i {
   color: goldenrod;
+}
+
+.stars{
+  margin-right: 40px;
+}
+
+.fa-star{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .rating-1 {
@@ -86,4 +108,45 @@ body {
 
 .rating-2 {
   margin-right: 40px;
+}
+
+
+
+
+
+.buyer{
+  padding: 40px 50px 10px 50px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card__name {
+    font-weight: 700;
+    color: var(--White);
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+
+.card__text {
+    font-weight: 500;
+    margin-top: 0px;
+    color: var(--Dark_Grayish_Magenta);
+    font-size: 0.9rem;
+}
+
+.card-text{
+margin-top: 0;
+}
+
+.card-img{
+  border-radius: 30px;
+  width: 60%;
+}
+
+.buyer-text{
+  color: var(--Light_Grayish_Magenta);
+  padding: 0 40px;
+  line-height: 1.5;
+  font-weight: 400;
 }
