@@ -160,3 +160,18 @@ margin-top: 0;
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+.card-1{
+    position: relative;
+}
+
+.card-2{
+   position: relative;
+   top: 50px;
+}
+
+.card-3{
+position: relative;
+top: 100px;
+}
