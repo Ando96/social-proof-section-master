@@ -42,29 +42,19 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Still learning how to use flexbox properly, I feel like I learnt alot from this challenge such as nesting flexbox containers to achieve the layout I want.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+  display: flex;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I am still working through these front end mentor challenges to improve my HTML and CSS, while I feel I still struggle a bit when I first start and sometimes look
+at completed solutions I've improved alot from when I first started - I couldn't even remember how to align content into the centre of the page on my first one. 
+I just need to break through this mindset that I can't do it.
 
 ### Useful resources
 
